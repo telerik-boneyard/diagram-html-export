@@ -1,0 +1,10 @@
+﻿svg
+{
+	background: White;
+	position: relative;
+	display: block;
+}
+.diagramShape.fill
+{
+	opacity: 0.65;
+}

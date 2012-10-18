@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>RadDiagram | JS</title>
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script src="http://cdn.kendostatic.com/2012.2.710/js/kendo.all.min.js" type="text/javascript"></script>
+    <script src="script/radDiagram.js" type="text/javascript"></script>
+    <script src="script/radDiagram.interactions.js" type="text/javascript"></script>
+    <script src="script/samples.js" type="text/javascript"></script>
+    <link href="styles/samples.css" rel="Stylesheet" type="text/css" />
+    <link href="styles/radDiagram.css" rel="Stylesheet" type="text/css" />
+</head>
+<body style="background-color: white">
+    <div id="headerPart">
+        <p id="headerText">
+            RadDiagram Export
+        </p>
+    </div>
+    <div id="surfaceHolder">
+        <div id="surface">
+        </div>
+    </div>
+    <div id="menu">
+        <ul>
+            <li><a>Bezier</a></li>
+            <li><a>Flowchart</a></li>
+            <li><a>Roll</a></li>
+            <li><a>Game</a></li>
+            <li><a>Floorplan</a></li>
+        </ul>
+    </div>
+    <div id="tooltip" class="collapsed">
+        <div id="content-top">
+            <label id="contentLabel"></label>
+        </div>
+        <div id="content">
+            <label class="tooltop-header">X:</label>
+            <label id="posXLabel"></label>
+            <label class="tooltop-header">Y:</label>
+            <label id="posYLabel"></label>
+        </div>
+    </div>
+</body>
+</html>
