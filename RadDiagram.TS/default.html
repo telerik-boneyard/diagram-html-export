@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<!--Note from Swa; you can simply open this HTML page in the browser and the tests will run.-->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    
+    <title>RadDiagram | TS </title>
+
+    <style type="text/css">
+        #canvasframe
+        {
+            border: 1px DimGray solid;
+            width: 1024px;
+            height: 768px;
+            background-color: #dcdcdc;
+        }
+        input {
+            border: 1px DimGray solid;
+            background-color: dimgray;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+
+    <script src="RadSVG/RadSVG.js" type="text/javascript"></script>
+    <script src="RadDiagram/RadDiagram.js" type="text/javascript"></script>
+    <script src="default.js"></script>
+
+</head>
+<body onload="OnLoaded()">
+  
+    <div id="content" style="margin: 20px;">
+        <table>
+            <tr>
+                <input type="button" id="UndoButton" title="Undo (CTRL+Z)" value="Undo"/>
+                <input type="button" id="RedoButton" title="Redo (CTRL+Y)" value="Redo"/>
+                <input type="button" id="DeleteButton" title="Delete (DEL)" value="Delete"/>
+                <input type="button" id="SelectAllButton" title="Select All (CTRL+A)" value="SelectAll"/>
+            </tr>
+            <tr>
+                <div id="canvasframe">
+                    <div id="canvas"></div>
+                </div>
+            </tr>
+            <tr>
+            </tr>
+        </table>
+
+
+    </div>
+</body>
+
+</html>

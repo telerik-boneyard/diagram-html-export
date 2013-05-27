@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadDiagram Version="2013.2">
+<Metadata Type="Telerik.Windows.Controls.RadDiagram" Id="6a1abf72-026e-4caf-a015-50669bc35f05" Zoom="1" Position="734;397" SelectionMode="Extended">
+<Title>Diagram [4/29/2013 2:15:44 PM]</Title>
+<Description>
+</Description>
+</Metadata>
+<Groups>
+<Group Name="Copy 2 of Group 1" />
+<Group Name="Copy 2 of Copy 0 of Group 1" />
+</Groups>
+<Shapes QNs="Telerik.Windows.Controls.Diagrams, Version=2013.2.429.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7;">
+<RadDiagramShape Type="Telerik.Windows.Controls.RadDiagramShape" Id="c57839e3-f479-4d22-8273-99cd97da7d06" ZIndex="2" Position="400;180" ParentGroup="Copy 2 of Group 1" Stroke="#FF264F62" BorderBrush="#FF264F62" Size="132;115" RotationAngle="0" MinWidth="0" MinHeight="0" MaxWidth="INF" MaxHeight="INF" Connectors="Auto:0.5;0.5,Left:0;0.5,Top:0.5;0,Right:1;0.5,Bottom:0.5;1," UseDefaultConnectors="True" Geometry="M0.5,0.5L111.5,0.5 111.5,74.5 0.5,74.5z" QN="0">
+<Background>
+<LinearGradientBrush StartPoint="0.5;0" EndPoint="0.5;1">
+<GradientStop Color="#FFB1D6F9" Offset="1" />
+<GradientStop Color="#FF6EB6CE" Offset="0.03" />
+<GradientStop Color="#FF59A1C2" Offset="0.03" />
+<GradientStop Color="#FFD9F2FF" Offset="0" />
+</LinearGradientBrush>
+</Background>
+</RadDiagramShape>
+<RadDiagramShape Type="Telerik.Windows.Controls.RadDiagramShape" Id="8c28640d-e121-4044-a656-22a98f635952" ZIndex="2" Position="420;200" ParentGroup="Copy 2 of Group 1" Stroke="#FFAD7E00" BorderBrush="#FFAD7E00" Size="80;75" RotationAngle="0" MinWidth="0" MinHeight="0" MaxWidth="INF" MaxHeight="INF" Connectors="Auto:0.5;0.5,Left:0;0.5,Top:0.5;0,Right:1;0.5,Bottom:0.5;1," UseDefaultConnectors="True" Geometry="M40,0.5L51.13,17.24 71.7,15.15 64.99,33.92 79.5,48.08 60.02,54.78 57.59,74.5 40,64.07 22.41,74.5 19.98,54.78 0.5,48.08 15.01,33.92 8.3,15.15 28.87,17.24z" QN="0">
+<Background>
+<LinearGradientBrush StartPoint="0.5;0" EndPoint="0.5;1">
+<GradientStop Color="#FFFFF617" Offset="1" />
+<GradientStop Color="#FFFFFED5" Offset="0" />
+<GradientStop Color="#FFF5BB22" Offset="0.5" />
+</LinearGradientBrush>
+</Background>
+</RadDiagramShape>
+<RadDiagramShape Type="Telerik.Windows.Controls.RadDiagramShape" Id="0cba4f96-47c7-40a0-8e95-bf4638ef7b3c" ZIndex="2" Position="400;340" ParentGroup="Copy 2 of Copy 0 of Group 1" Stroke="#FF264F62" BorderBrush="#FF264F62" Size="132;115" RotationAngle="0" MinWidth="0" MinHeight="0" MaxWidth="INF" MaxHeight="INF" Connectors="Auto:0.5;0.5,Left:0;0.5,Top:0.5;0,Right:1;0.5,Bottom:0.5;1," UseDefaultConnectors="True" Geometry="M0.5,0.5L111.5,0.5 111.5,74.5 0.5,74.5z" QN="0">
+<Background>
+<LinearGradientBrush StartPoint="0.5;0" EndPoint="0.5;1">
+<GradientStop Color="#FFB1D6F9" Offset="1" />
+<GradientStop Color="#FF6EB6CE" Offset="0.03" />
+<GradientStop Color="#FF59A1C2" Offset="0.03" />
+<GradientStop Color="#FFD9F2FF" Offset="0" />
+</LinearGradientBrush>
+</Background>
+</RadDiagramShape>
+<RadDiagramShape Type="Telerik.Windows.Controls.RadDiagramShape" Id="cbd5e278-ded6-40b2-9d48-8968f517ffca" ZIndex="2" Position="420;360" ParentGroup="Copy 2 of Copy 0 of Group 1" Stroke="#FFAD7E00" BorderBrush="#FFAD7E00" Size="80;75" RotationAngle="0" MinWidth="0" MinHeight="0" MaxWidth="INF" MaxHeight="INF" Connectors="Auto:0.5;0.5,Left:0;0.5,Top:0.5;0,Right:1;0.5,Bottom:0.5;1," UseDefaultConnectors="True" Geometry="M40,0.5L51.13,17.24 71.7,15.15 64.99,33.92 79.5,48.08 60.02,54.78 57.59,74.5 40,64.07 22.41,74.5 19.98,54.78 0.5,48.08 15.01,33.92 8.3,15.15 28.87,17.24z" QN="0">
+<Background>
+<LinearGradientBrush StartPoint="0.5;0" EndPoint="0.5;1">
+<GradientStop Color="#FFFFF617" Offset="1" />
+<GradientStop Color="#FFFFFED5" Offset="0" />
+<GradientStop Color="#FFF5BB22" Offset="0.5" />
+</LinearGradientBrush>
+</Background>
+</RadDiagramShape>
+</Shapes>
+<Connections />
+</RadDiagram>

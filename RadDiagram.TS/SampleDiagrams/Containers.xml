@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadDiagram Version="2013.2">
+<Metadata Type="Telerik.Windows.Controls.RadDiagram" Id="6a1abf72-026e-4caf-a015-50669bc35f05" Zoom="1" Position="571;492" SelectionMode="Extended">
+<Title>Diagram [4/29/2013 2:15:44 PM]</Title>
+<Description>
+</Description>
+</Metadata>
+<Groups />
+<Shapes QNs="Telerik.Windows.Controls.Diagrams, Version=2013.2.429.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7;">
+<RadDiagramShape Type="Telerik.Windows.Controls.RadDiagramShape" Id="4e830a3f-6a8f-413e-b3a7-f4cd3adb2455" ZIndex="2" Position="345.166666666667;136.63" Stroke="#FF5E4C7C" BorderBrush="#FF5E4C7C" Size="Auto;Auto" RotationAngle="0" MinWidth="0" MinHeight="0" MaxWidth="INF" MaxHeight="INF" Connectors="Auto:0.5;0.5,Left:0;0.5,Top:0.5;0,Right:1;0.5,Bottom:0.5;1," UseDefaultConnectors="True" Geometry="M0.5,0.5L111.5,0.5 111.5,74.5 0.5,74.5z" QN="0">
+<Background>
+<LinearGradientBrush StartPoint="0.5;0" EndPoint="0.5;1">
+<GradientStop Color="#FFB38EED" Offset="1" />
+<GradientStop Color="#FFFFFFFF" Offset="0" />
+<GradientStop Color="#FFD1B3FF" Offset="0.49" />
+<GradientStop Color="#FFC0A6E7" Offset="0.5" />
+<GradientStop Color="#FF927AB8" Offset="0.92" />
+</LinearGradientBrush>
+</Background>
+</RadDiagramShape>
+<RadDiagramShape Type="Telerik.Windows.Controls.RadDiagramShape" Id="8be33c1f-51e0-40d5-bfc3-7a1ab3c95df2" ZIndex="3" Position="457.166666666667;136.63" Stroke="#FF46623A" BorderBrush="#FF46623A" Size="Auto;Auto" RotationAngle="0" MinWidth="0" MinHeight="0" MaxWidth="INF" MaxHeight="INF" Connectors="Auto:0.5;0.5,Left:0;0.5,Top:0.5;0,Right:1;0.5,Bottom:0.5;1," UseDefaultConnectors="True" Geometry="M43.51,0.5L86.5,74.5 0.5,74.5z" QN="0">
+<Background>
+<LinearGradientBrush StartPoint="0.5;0" EndPoint="0.5;1">
+<GradientStop Color="#FFB2CE97" Offset="0.06" />
+<GradientStop Color="#FF5E8350" Offset="1" />
+<GradientStop Color="#FFDAEBBD" Offset="0" />
+</LinearGradientBrush>
+</Background>
+</RadDiagramShape>
+<RadDiagramContainerShape Type="Telerik.Windows.Controls.RadDiagramContainerShape" Id="b8178a80-ea33-46fe-9c4a-f1e1cca74cb0" ZIndex="1" Position="320;100" IsRotationEnabled="false" Content="Second" Stroke="#FF173697" BorderBrush="#FF173697" Size="274.166666666667;167.463333333333" RotationAngle="0" MinWidth="200" MinHeight="100" MaxWidth="INF" MaxHeight="INF" Connectors="Auto:0.5;0.5,Left:0;0.5,Top:0.5;0,Right:1;0.5,Bottom:0.5;1," UseDefaultConnectors="True" RestoredHeight="0" RestoredMinHeight="0" RestoredIsResizingEnabled="false" QN="0" Items="4e830a3f-6a8f-413e-b3a7-f4cd3adb2455;8be33c1f-51e0-40d5-bfc3-7a1ab3c95df2">
+<Background>
+<LinearGradientBrush StartPoint="0.5;0" EndPoint="0.5;1">
+<GradientStop Color="#FF69BDE9" Offset="0.06" />
+<GradientStop Color="#FF4D79C0" Offset="1" />
+<GradientStop Color="#FF91D4F5" Offset="0" />
+</LinearGradientBrush>
+</Background>
+</RadDiagramContainerShape>
+<RadDiagramContainerShape Type="Telerik.Windows.Controls.RadDiagramContainerShape" Id="43e23812-46de-4919-8556-ef5c15db37d3" ZIndex="0" Position="300;60" IsRotationEnabled="false" Content="First" Stroke="#FF978822" BorderBrush="#FF978822" Size="324.166666666667;360" RotationAngle="0" MinWidth="200" MinHeight="100" MaxWidth="INF" MaxHeight="INF" Connectors="Auto:0.5;0.5,Left:0;0.5,Top:0.5;0,Right:1;0.5,Bottom:0.5;1," UseDefaultConnectors="True" RestoredHeight="0" RestoredMinHeight="0" RestoredIsResizingEnabled="false" QN="0" Items="b8178a80-ea33-46fe-9c4a-f1e1cca74cb0">
+<Background>
+<LinearGradientBrush StartPoint="0.5;0" EndPoint="0.5;1">
+<GradientStop Color="#FFD4C243" Offset="0.92" />
+<GradientStop Color="#FFFFFFFF" Offset="0" />
+<GradientStop Color="#FFEFE17B" Offset="0.5" />
+<GradientStop Color="#FFF1E79D" Offset="0.491" />
+<GradientStop Color="#FFEFE183" Offset="1" />
+</LinearGradientBrush>
+</Background>
+</RadDiagramContainerShape>
+<RadDiagramShape Type="Telerik.Windows.Controls.RadDiagramShape" Id="c421d20e-cefb-44ea-a29f-a4962e722619" ZIndex="2" Position="571.5;528.5" Stroke="#FF624A45" BorderBrush="#FF624A45" Size="Auto;Auto" RotationAngle="0" MinWidth="0" MinHeight="0" MaxWidth="INF" MaxHeight="INF" Connectors="Auto:0.5;0.5,Left:0;0.5,Top:0.5;0,Right:1;0.5,Bottom:0.5;1," UseDefaultConnectors="True" Geometry="M21.56,0.5L63.56,0.5 84.5,37.5 63.56,74.5 21.56,74.5 0.5,37.5z" QN="0">
+<Background>
+<LinearGradientBrush StartPoint="0.5;0" EndPoint="0.5;1">
+<GradientStop Color="#FF8F6E66" Offset="0.92" />
+<GradientStop Color="#FFFFFFFF" Offset="0" />
+<GradientStop Color="#FFD4B1A7" Offset="0.49" />
+<GradientStop Color="#FFC8A59C" Offset="0.5" />
+<GradientStop Color="#FFB39189" Offset="1" />
+</LinearGradientBrush>
+</Background>
+</RadDiagramShape>
+<RadDiagramShape Type="Telerik.Windows.Controls.RadDiagramShape" Id="852b37ae-e07c-4664-927b-c16c970917af" ZIndex="2" Position="-40;25" Size="Auto;Auto" RotationAngle="0" MinWidth="0" MinHeight="0" MaxWidth="INF" MaxHeight="INF" Connectors="Auto:0.5;0.5,Left:0;0.5,Top:0.5;0,Right:1;0.5,Bottom:0.5;1," UseDefaultConnectors="True" Geometry="M21.56,0.5L63.56,0.5 84.5,37.5 63.56,74.5 21.56,74.5 0.5,37.5z" QN="0" />
+<RadDiagramShape Type="Telerik.Windows.Controls.RadDiagramShape" Id="a28f527b-8dde-4d3b-a9d6-446bcc9d3bb4" ZIndex="2" Position="656.5;167.5" Stroke="#FF995050" BorderBrush="#FF995050" Size="Auto;Auto" RotationAngle="0" MinWidth="0" MinHeight="0" MaxWidth="INF" MaxHeight="INF" Connectors="Auto:0.5;0.5,Left:0;0.5,Top:0.5;0,Right:1;0.5,Bottom:0.5;1," UseDefaultConnectors="True" Geometry="M22.79,0.5L53.04,0.5 74.46,21.88 74.5,52.62 52.3,74.5 22.91,74.5 0.5,52.88 0.5,21.75z" QN="0">
+<Background>
+<LinearGradientBrush StartPoint="0.5;0" EndPoint="0.5;1">
+<GradientStop Color="#FFDE7F7F" Offset="0.92" />
+<GradientStop Color="#FFFFFFFF" Offset="0" />
+<GradientStop Color="#FFFFB1B8" Offset="0.49" />
+<GradientStop Color="#FFF7A9A9" Offset="0.5" />
+<GradientStop Color="#FFF7A9A9" Offset="1" />
+</LinearGradientBrush>
+</Background>
+</RadDiagramShape>
+<RadDiagramContainerShape Type="Telerik.Windows.Controls.RadDiagramContainerShape" Id="62813c6c-776c-46b9-adee-cd67fe94f7d2" ZIndex="0" Position="-40;460" IsRotationEnabled="false" IsResizingEnabled="false" Content="Header" Stroke="#FFABABAB" Background="#FFD4D4D4" BorderBrush="#FFABABAB" Size="340;Auto" RotationAngle="0" MinWidth="200" MinHeight="0" MaxWidth="INF" MaxHeight="INF" Connectors="Auto:0.5;0.5,Left:0;0.5,Top:0.5;0,Right:1;0.5,Bottom:0.5;1," UseDefaultConnectors="True" IsCollapsible="true" IsCollapsed="true" RestoredHeight="160" RestoredMinHeight="100" RestoredIsResizingEnabled="true" QN="0" Items="c4135ea2-ec51-4f22-8245-01bfc97c1f4c;634b00ad-1627-42dd-839e-35397af44b45" />
+<RadDiagramShape Type="Telerik.Windows.Controls.RadDiagramShape" Id="c4135ea2-ec51-4f22-8245-01bfc97c1f4c" ZIndex="2" Position="-5.5;508.5" Size="175;95" RotationAngle="0" MinWidth="0" MinHeight="0" MaxWidth="INF" MaxHeight="INF" Connectors="Auto:0.5;0.5,Left:0;0.5,Top:0.5;0,Right:1;0.5,Bottom:0.5;1," UseDefaultConnectors="True" Geometry="M74.5,37.5C74.5,57.91 57.91,74.5 37.5,74.5 17,74.5 0.5,57.91 0.5,37.5 0.5,17 17,0.5 37.5,0.5 57.91,0.5 74.5,17 74.5,37.5z" QN="0" />
+<RadDiagramShape Type="Telerik.Windows.Controls.RadDiagramShape" Id="6f5a7411-e54f-4e4c-92e6-23126f543f98" ZIndex="2" Position="425.5;-77.5" Stroke="#FF89996E" Background="#FFBFD699" BorderBrush="#FF89996E" Size="Auto;Auto" RotationAngle="0" MinWidth="0" MinHeight="0" MaxWidth="INF" MaxHeight="INF" Connectors="Auto:0.5;0.5,Left:0;0.5,Top:0.5;0,Right:1;0.5,Bottom:0.5;1," UseDefaultConnectors="True" Geometry="M37.5,0.5L74.5,25.17 74.5,74.5 0.5,74.5 0.5,25.17z" QN="0" />
+<RadDiagramShape Type="Telerik.Windows.Controls.RadDiagramShape" Id="360ba9f4-c91a-46cd-8754-6a805d926f9a" ZIndex="2" Position="555.5;-76.5" Size="Auto;Auto" RotationAngle="0" MinWidth="0" MinHeight="0" MaxWidth="INF" MaxHeight="INF" Connectors="Auto:0.5;0.5,Left:0;0.5,Top:0.5;0,Right:1;0.5,Bottom:0.5;1," UseDefaultConnectors="True" Geometry="M21.79,0.5L74.5,0.5 74.5,74.5 21.79,74.5 0.5,37.5z" QN="0" />
+<RadDiagramShape Type="Telerik.Windows.Controls.RadDiagramShape" Id="634b00ad-1627-42dd-839e-35397af44b45" ZIndex="3" Position="204.5;514.5" Size="Auto;Auto" RotationAngle="0" MinWidth="0" MinHeight="0" MaxWidth="INF" MaxHeight="INF" Connectors="Auto:0.5;0.5,Left:0;0.5,Top:0.5;0,Right:1;0.5,Bottom:0.5;1," UseDefaultConnectors="True" Geometry="M74.5,0.5L74.5,53.36 37.5,74.5 0.5,53.36 0.5,0.5z" QN="0" />
+</Shapes>
+<Connections QNs="Telerik.Windows.Controls.Diagrams, Version=2013.2.429.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7;">
+<RadDiagramConnection Type="Telerik.Windows.Controls.RadDiagramConnection" Id="f1771f8f-d356-4856-9832-a8e837056f86" ZIndex="1" Position="300;240" IsRotationEnabled="false" IsResizingEnabled="false" SourceConnectorPosition="Right" TargetConnectorPosition="Left" SourceCapType="None" TargetCapType="None" SourceCapSize="7;7" TargetCapSize="7;7" StartPoint="656.5;566" Source="c421d20e-cefb-44ea-a29f-a4962e722619" EndPoint="300;240" Target="43e23812-46de-4919-8556-ef5c15db37d3" ConnectionType="Polyline" ConnectionPoints="" QN="0" />
+<RadDiagramConnection Type="Telerik.Windows.Controls.RadDiagramConnection" Id="5e6e3c52-217e-41b3-8507-e1afd0970167" ZIndex="1" Position="45;62.5" IsRotationEnabled="false" IsResizingEnabled="false" SourceConnectorPosition="Auto" TargetConnectorPosition="Left" SourceCapType="None" TargetCapType="None" SourceCapSize="7;7" TargetCapSize="7;7" StartPoint="45;62.5" Source="852b37ae-e07c-4664-927b-c16c970917af" EndPoint="345.166666666667;174.13" Target="4e830a3f-6a8f-413e-b3a7-f4cd3adb2455" ConnectionType="Polyline" ConnectionPoints="" QN="0" />
+<RadDiagramConnection Type="Telerik.Windows.Controls.RadDiagramConnection" Id="b0b7789c-5b4b-40e8-8a86-99d086ba77d3" ZIndex="1" Position="544.166666666667;174.13" IsRotationEnabled="false" IsResizingEnabled="false" SourceConnectorPosition="Bottom" TargetConnectorPosition="Auto" SourceCapType="None" TargetCapType="None" SourceCapSize="7;7" TargetCapSize="7;7" StartPoint="694;242.5" Source="a28f527b-8dde-4d3b-a9d6-446bcc9d3bb4" EndPoint="544.166666666667;174.13" Target="8be33c1f-51e0-40d5-bfc3-7a1ab3c95df2" ConnectionType="Polyline" ConnectionPoints="" QN="0" />
+<RadDiagramConnection Type="Telerik.Windows.Controls.RadDiagramConnection" Id="0c51bbab-3077-4c89-a951-935bacad5348" ZIndex="1" Position="2.5;100" IsRotationEnabled="false" IsResizingEnabled="false" SourceConnectorPosition="Top" TargetConnectorPosition="Auto" SourceCapType="None" TargetCapType="None" SourceCapSize="7;7" TargetCapSize="7;7" StartPoint="130;460" Source="62813c6c-776c-46b9-adee-cd67fe94f7d2" EndPoint="2.5;100" Target="852b37ae-e07c-4664-927b-c16c970917af" ConnectionType="Polyline" ConnectionPoints="" QN="0" />
+</Connections>
+</RadDiagram>

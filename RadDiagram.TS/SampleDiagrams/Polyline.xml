@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadDiagram Version="2013.2">
+<Metadata Type="Telerik.Windows.Controls.RadDiagram" Id="6a1abf72-026e-4caf-a015-50669bc35f05" Zoom="1" Position="187;304" SelectionMode="Extended">
+<Title>Diagram [4/29/2013 2:15:44 PM]</Title>
+<Description>
+</Description>
+</Metadata>
+<Groups />
+<Shapes QNs="Telerik.Windows.Controls.Diagrams, Version=2013.2.429.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7;">
+<RadDiagramShape Type="Telerik.Windows.Controls.RadDiagramShape" Id="02bccf37-2b69-4bfa-95c5-07431744863d" ZIndex="2" Position="560;160" Content="Flow" Stroke="#FFF19720" Background="#FFFFFFFF" BorderBrush="#FFF19720" Size="313;56" RotationAngle="0" MinWidth="0" MinHeight="0" MaxWidth="INF" MaxHeight="INF" Connectors="Auto:0.5;0.5,Left:0;0.5,Top:0.5;0,Right:1;0.5,Bottom:0.5;1," UseDefaultConnectors="True" Geometry="M0,9C0,4.0294371,4.0294371,0,9,0L103,0C107.97057,0,112,4.0294371,112,9L112,66C112,70.970566,107.97057,75,103,75L9,75C4.0294371,75,0,70.970566,0,66z" QN="0" />
+<RadDiagramShape Type="Telerik.Windows.Controls.RadDiagramShape" Id="aad9016b-29e3-4b9b-951d-c5dfaeaa6e42" ZIndex="2" Position="680;424" Stroke="#FFC8AA22" Background="#FFFFF2B7" BorderBrush="#FFC8AA22" Size="Auto;Auto" RotationAngle="0" MinWidth="0" MinHeight="0" MaxWidth="INF" MaxHeight="INF" Connectors="Auto:0.5;0.5,Left:0;0.5,Top:0.5;0,Right:1;0.5,Bottom:0.5;1," UseDefaultConnectors="True" Geometry="M0,9C0,4.0294371,4.0294371,0,9,0L103,0C107.97057,0,112,4.0294371,112,9L112,66C112,70.970566,107.97057,75,103,75L9,75C4.0294371,75,0,70.970566,0,66z" QN="0" />
+</Shapes>
+<Connections QNs="Telerik.Windows.Controls.Diagrams, Version=2013.2.429.40, Culture=neutral, PublicKeyToken=5803cfa389c90ce7;">
+<RadDiagramConnection Type="Telerik.Windows.Controls.RadDiagramConnection" Id="3f228060-0498-49c0-aec4-cd298c316b05" ZIndex="1" Position="500;216" IsRotationEnabled="false" IsResizingEnabled="false" SourceConnectorPosition="Auto" TargetConnectorPosition="Auto" SourceCapType="Arrow1Filled" TargetCapType="Arrow1Filled" SourceCapSize="7;7" TargetCapSize="7;7" StartPoint="716.5;216" Source="02bccf37-2b69-4bfa-95c5-07431744863d" EndPoint="680;462" Target="aad9016b-29e3-4b9b-951d-c5dfaeaa6e42" ConnectionType="Polyline" ConnectionPoints="720;280;500;460" QN="0" />
+</Connections>
+</RadDiagram>

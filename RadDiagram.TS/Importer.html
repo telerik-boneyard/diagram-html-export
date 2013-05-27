@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>RadDiagram import sample</title>
+        <!--
+            This sample demonstrates how to load a RadDiagram created in XAML in the browser.
+            The initial version of this import/export tool was based on Kendo UI but has been
+            replaced in 2013 Q2 and uses now TypeScript as metalanguage. The resulting webpage
+            is still SVG however.
+            -->
+        <script type="text/javascript" src="RadSVG/RadSVG.js"></script>
+        <script type="text/javascript" src="RadDiagram/RadDiagram.js"></script>
+        <script type="text/javascript">
+            var diagram;
+            function document_load() {
+                var div = document.getElementById("canvas");
+                if (div) {
+                    diagram = new RadDiagram.Diagram(div);
+                } else
+                    alert('No DIV found.');
+            }
+            function loadDiagram(url) {
+                if (this.diagram == null) throw "Diagram is not initialized.";
+                this.diagram.Clear();
+                var importer = new RadDiagram.RDImporter(diagram);
+                importer.LoadURL("http://localhost:63342" + url, true);
+            }
+        
+        
+        </script>
+        <style type="text/css">
+            li
+            {
+                list-style-type: none;
+                width: 200px;
+                height: 30px;
+                margin: 1px;
+                cursor: default;
+                font-size: 15px;
+            }
+
+            li a
+            {
+                cursor: pointer;
+            }
+
+            a
+            {
+                float: right;
+                margin-right: 20px;
+                margin-top: 8px;
+                text-decoration: none;
+                color: black;
+            }
+
+            ul
+            {
+                float: right;
+            }
+
+            #menu
+            {
+                position: absolute;
+                height: 100%;
+                width: 200px;
+                float: left;
+                vertical-align: top;
+                background-color: #f2f2f2;
+                border-right: 1px solid #dcddde;
+            }
+
+            #surfaceHolder
+            {
+                position: absolute;
+                left: 220px;
+                top: 75px;
+            }
+
+            #headerPart
+            {
+                height: 50px;
+                position: relative;
+                border-bottom: 3px solid #2c94d4;
+                background-color: #fcfcfc;
+                vertical-align: top;
+            }
+
+            #headerText
+            {
+                color: #58b6fe;
+                margin-left: 55px;
+                margin-top: 10px;
+                font-size: 30px;
+                font-family: "Segoe UI","Segoe UI Web Regular","Segoe UI Symbol","Helvetica Neue","BBAlpha Sans","S60 Sans",Arial,"sans-serif",serif;
+            }
+
+            label
+            {
+                font-family: "Segoe UI","Segoe UI Web Regular","Segoe UI Symbol","Helvetica Neue","BBAlpha Sans","S60 Sans",Arial,"sans-serif",serif;
+            }
+       
+        </style>
+
+    </head>
+<body onload="document_load()">
+
+    <div id="headerPart">
+        <p id="headerText">
+            RadDiagram Export 
+        </p>
+    </div>
+    
+    <div id="surfaceHolder">
+        <div id="canvas" style="margin: 20px; width: 1024px; height: 768px;"></div>
+    </div>
+    <div id="menu">
+        <ul>
+            <li><a onclick="loadDiagram('/SampleDiagrams/Bezier.xml');">Bezier</a></li>
+            <li><a onclick="loadDiagram('/SampleDiagrams/Flowchart.xml');">Flowchart</a></li>
+            <li><a onclick="loadDiagram('/SampleDiagrams/Roll.xml');">Roll</a></li>
+            <li><a onclick="loadDiagram('/SampleDiagrams/Game.xml');">Game</a></li>
+            <li><a onclick="loadDiagram('/SampleDiagrams/Floorplan.xml');">Floorplan</a></li>
+            <li><a onclick="loadDiagram('/SampleDiagrams/Arrows.xml');">Arrows</a></li>
+            <li><a onclick="loadDiagram('/SampleDiagrams/Gradients.xml');">Gradients</a></li>
+            <li><a onclick="loadDiagram('/SampleDiagrams/Containers.xml');">Containers</a></li>
+            <li><a onclick="loadDiagram('/SampleDiagrams/Polyline.xml');">Polyline</a></li>
+            <li style="margin-top: 70px;"> <a href="https://github.com/telerik/diagram-html-export" target="_blank">Source code on GitHub</a></li>
+            <li  style="margin-top: 70px"><a style=" cursor: default;">Use mouse-wheel to zoom</a></li>
+            <li><a style=" cursor: default;">and CTRL-drag to pan</a></li>
+        </ul>
+    </div>
+     
+</body>
+</html>

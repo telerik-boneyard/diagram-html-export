@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+         <meta charset="UTF-8"/>
+        <title>RadSVG playground</title>
+        <script type="text/javascript" src="../RadSVG/RadSVG.js"></script>
+        <script type="text/javascript">
+            var canvas;
+            var addCircle = function (p)
+            {
+                var c = new RadSVG.Circle();
+                c.Radius = 100;
+                c.Position = p;
+                c.StrokeThickness = 0;
+                c.Opacity = 1.13;
+                c.Background = "Orange";
+                canvas.Append(c);
+                return c;
+            };
+            var addLine = function (p, q)
+            {
+                var l = new RadSVG.Line(p, q);
+                l.Stroke = "SteelBlue";
+                l.StrokeThickness = 2;
+                canvas.Append(l);
+                return l;
+            }
+
+            function document_load()
+            {
+                var div = document.getElementById("canvas");
+                if (div)
+                {
+                    var options = new RadSVG.CanvasOptions();
+                    options.Width = 1000;
+                    options.Height = 1000;
+                    canvas = new RadSVG.Canvas(div, options);
+                    var l = addLine(new RadSVG.Point(100, 100), new RadSVG.Point(300, 200));
+                    var as = RadSVG.Markers.WedgeStart;
+                    canvas.AddMarker(as);
+                    var ae = RadSVG.Markers.WedgeEnd;
+                    canvas.AddMarker(ae);
+
+                    l.MarkerEnd = ae;
+                    l.MarkerStart = as;
+
+                    var c = addCircle(new RadSVG.Point(500, 200));
+                    var gr = RadSVG.Gradients.BlueWhite;
+                    canvas.AddGradient(gr);
+                    gr.Id = "qsd";
+                    c.Background = gr;
+
+                    var pol = new RadSVG.Polyline();
+                    var points = [];
+                    points.push(new RadSVG.Point(100, 100));
+                    points.push(new RadSVG.Point(200, 150));
+                    points.push(new RadSVG.Point(300, 50));
+                    pol.Points = points;
+                    canvas.Append(pol);
+
+                }
+                else
+                    alert('No DIV found.');
+            }
+
+        </script>
+    </head>
+<body onload="document_load()">
+<div id="canvas"></div>
+</body>
+</html>

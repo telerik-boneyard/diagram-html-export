@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+         <meta charset="UTF-8"/>
+        <title>RadDiagram playground</title>
+        <script type="text/javascript" src="../RadSVG/RadSVG.js"></script>
+        <script type="text/javascript" src="../RadDiagram/RadDiagram.js"></script>
+        <script type="text/javascript">
+            function document_load() {
+                var div = document.getElementById("canvas");
+                if (div) {
+                    var diagram = new RadDiagram.Diagram(div);
+
+                } else
+                    alert('No DIV found.');
+            }
+
+        </script>
+    </head>
+<body onload="document_load()">
+    <div id="canvas" style="margin: 20px;"></div>
+</body>
+</html>
